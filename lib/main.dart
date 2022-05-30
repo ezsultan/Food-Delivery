@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
     Get.find<RecommendedFoodController>().getRecommendedFoodList();
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainFoodPage(),
+      home: const MainFoodPage(),
       initialRoute: RouteHelper.initial,
       getPages: RouteHelper.routes,
     );

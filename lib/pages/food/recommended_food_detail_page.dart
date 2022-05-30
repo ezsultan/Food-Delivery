@@ -97,7 +97,7 @@ class RecommendedFoodDetailPage extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Container(
+          SizedBox(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
